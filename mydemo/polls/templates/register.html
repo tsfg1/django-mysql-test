@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+<form action="/polls/register/" method="post">
+    {% csrf_token %}
+    <label>用户名：</label><input name="user_2"/>
+    <label>密码：</label><input name="pwd_2"/>
+    <input type="submit" value="注册">
+</form>
+</body>
+</html>
